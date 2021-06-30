@@ -1,0 +1,172 @@
+body {
+  margin: 0;
+}
+
+::-webkit-scrollbar {
+  height: 1vh;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent !important;
+}
+
+::-webkit-scrollbar-thumb {
+  border: 0.05vh solid rgb(6, 82, 95);
+  border-radius: 2vh;
+}
+
+.screen_align {
+  height: 13vh;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.screen {
+  overflow: auto;
+  padding-right: 3vh;
+  bottom: 0;
+  margin-top: 100%;
+  right: 0;
+  font-size: 7vh;
+  text-align: end;
+  color: rgb(4, 46, 48);
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.page_align {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+  align-items: center;
+}
+
+.cal_algn {
+  display: flex;
+  width: 55vh;
+  border-radius: 3vh;
+  padding: 1vh;
+  box-shadow: 0 0 4vh rgb(2, 59, 59);
+  flex-direction: column;
+}
+
+.cal_align {
+  display: flex;
+  flex-direction: row;
+}
+
+.btn_align {
+  display: flex;
+  flex-direction: column;
+}
+
+.last {
+  display: flex;
+}
+
+.btn {
+  width: 100%;
+  color: aqua;
+  outline-style: none;
+  font-weight: bold;
+  border: none;
+  padding: 2vh;
+  font-size: 2.5vh;
+  border-radius: 50%;
+  box-shadow: 0 0 3vh rgb(6, 82, 95);
+  background-color: transparent;
+  color: black;
+  cursor: pointer;
+}
+
+.btn:hover {
+  box-shadow: 0 0 0.5vh rgb(6, 82, 95);
+}
+
+.plus {
+  margin: 0;
+  padding-top: 100%;
+  padding-bottom: 7.5vh;
+  background-color: rgb(4, 46, 48);
+  color: aquamarine;
+}
+
+.div {
+  background-color: rgb(4, 46, 48);
+  color: aquamarine;
+}
+
+.per {
+  background-color: rgb(4, 46, 48);
+  color: aquamarine;
+}
+
+.div {
+  background-color: rgb(4, 46, 48);
+  color: aquamarine;
+}
+
+.min {
+  background-color: rgb(4, 46, 48);
+  color: aquamarine;
+}
+
+.mul {
+  background-color: rgb(4, 46, 48);
+  color: aquamarine;
+}
+
+.equal {
+  background-color: rgb(4, 46, 48);
+  color: aquamarine;
+}
+
+.clear {
+  background-color: rgb(5, 184, 184);
+  color: black;
+}
+
+.s {
+  margin-right: 3vh;
+}
+
+table {
+  border-spacing: 4vh;
+}
+
+.head {
+  font-size: 6vh;
+  font-weight: bold;
+  font-family: "Great Vibes", cursive;
+}
+
+.sub_head {
+  font-size: 1.4vh;
+  margin-left: 1vh;
+  font-weight: bold;
+  color: #dbdbdb;
+  letter-spacing: 0.4vh;
+  animation: text 4s infinite;
+  font-style: italic;
+  overflow: hidden;
+  white-space: nowrap;
+  opacity: 0;
+}
+
+@keyframes text {
+  0% {
+    width: 0vh;
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
