@@ -27,6 +27,7 @@ body {
 
 .screen {
   overflow: auto;
+  direction: rtl;
   padding-right: 3vh;
   bottom: 0;
   margin-top: 100%;
@@ -169,4 +170,3 @@ table {
     opacity: 1;
   }
 }
-
